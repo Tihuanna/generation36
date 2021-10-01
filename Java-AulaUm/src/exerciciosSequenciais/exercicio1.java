@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class exercicio1 {
 
 	public static void main(String[] args) {
-		int a, b, c, r, s, d, sab,sbc,srs;
+		int a, b, c, r, s, d, sab,sbc;
 
 		Scanner ler =	new Scanner(System.in);
 		System.out.println("\nInsira o valor de A");
@@ -23,6 +23,6 @@ public class exercicio1 {
 		d= sab+sbc / 2;
 		
 		
-		System.out.printf("O valor de D é: ", d);
+		System.out.printf("O valor de D é: "+ d);
 	}
 }
