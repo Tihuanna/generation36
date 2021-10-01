@@ -2,27 +2,28 @@ package exerciciosSequenciais;
 
 import java.util.Scanner;
 
-public class exercicio1 {
+public class Exercicio1 {
 
 	public static void main(String[] args) {
-		int a, b, c, r, s, d, sab,sbc;
-
-		Scanner ler =	new Scanner(System.in);
-		System.out.println("\nInsira o valor de A");
-		a = ler.nextInt();
+		int totalanos, res, meses, dias;
 		
-		System.out.println("\nInsira o valor de B");
-		b = ler.nextInt();
+		Scanner leia = new Scanner(System.in);
+		System.out.println("\nEntre com quantos anos você tem: ");
+		totalanos = leia.nextInt();
 		
-		System.out.println("\nInsira o valor de C");
-		c = ler.nextInt();
+		System.out.println("\nEntre com quantos meses: ");
+		meses = leia.nextInt();
 		
-		sab = (a+b);
-		sbc = (b+c);
+		System.out.println("\nEntre com quantos dias: ");
+		dias = leia.nextInt();
 		
-		d= sab+sbc / 2;
+		res = ((totalanos*365) + (meses*30) + dias);
+		
+		System.out.println("\nSua idade em dias é: "+res);
 		
 		
-		System.out.printf("O valor de D é: "+ d);
+		
+		
 	}
+
 }
