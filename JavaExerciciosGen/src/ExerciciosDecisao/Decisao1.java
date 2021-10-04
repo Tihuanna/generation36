@@ -1,4 +1,4 @@
-package ExerciciosSequenciais;
+package ExerciciosDecisao;
 
 import java.util.Scanner;
 
