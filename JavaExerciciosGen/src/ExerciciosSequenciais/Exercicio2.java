@@ -1,8 +1,8 @@
-package exerciciosSequenciais;
+package ExerciciosSequenciais;
 
 import java.util.Scanner;
 
-public class exercicio2 {
+public class Exercicio2 {
 
 	public static void main(String[] args) {
 		int totaldias, anos, meses, dias;
