@@ -1,6 +1,6 @@
 package Poo;
 
-public class ExAviao {
+public class Exercicio2Aviao {
 //2) Crie uma classe avião e apresente os atributos e métodos referentes
 	//esta classe, em seguida crie um objeto avião, defina as instancias deste
 	//objeto e apresente as informações deste objeto no console.
@@ -9,7 +9,7 @@ public class ExAviao {
 	private String cor;
 	private double velocidadeMax;
 	
-	public ExAviao (String modelo,String marca,String cor,int velocidadeMax)
+	public Exercicio2Aviao (String modelo,String marca,String cor,int velocidadeMax)
 	{
 		this.modelo = modelo;
 		this.marca = marca;

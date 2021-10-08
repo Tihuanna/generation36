@@ -1,6 +1,6 @@
 package Poo;
 
-public class Automovel {
+public class ExemploAutomovel {
 	
 	//declaração dos atributos de classe
 	private String nomeProprietario;
@@ -10,7 +10,7 @@ public class Automovel {
 	
 	//metodo especial construtor
 	
-	public Automovel(String nomeProprietario, String modelo, String placa, int ano) 
+	public ExemploAutomovel(String nomeProprietario, String modelo, String placa, int ano) 
 	{
 		this.nomeProprietario = nomeProprietario;
 		this.modelo=modelo;

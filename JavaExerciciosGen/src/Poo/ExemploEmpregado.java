@@ -2,7 +2,7 @@ package Poo;
 
 import java.text.NumberFormat;
 
-public class Empregado {
+public class ExemploEmpregado {
 	
 	//declaração dos atributos
 	
@@ -12,7 +12,7 @@ public class Empregado {
 	
 	//declaração do método especial construtor
 	
-	public Empregado(String n, double s)
+	public ExemploEmpregado(String n, double s)
 	{
 		this.setNome(n);
 		this.setSalario(s);	

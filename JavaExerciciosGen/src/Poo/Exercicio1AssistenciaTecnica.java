@@ -6,14 +6,14 @@ import java.text.NumberFormat;
 esta classe, em seguida crie um objeto cliente, defina as instancias deste
 objeto e apresente as informações deste objeto no console. */
 
-public class Ex1AssistenciaTecnica {
+public class Exercicio1AssistenciaTecnica {
 	//declaracao atributos
 	private String nomeProprietario;
 	private String modeloNotebook;
 	private String pecaDefeituosa;
 	private int valorReparo;
 //metodo especial construtor	
-	public Ex1AssistenciaTecnica(String nomeProprietario, String modeloNotebook, String pecaDefeituosa, int valorReparo)
+	public Exercicio1AssistenciaTecnica(String nomeProprietario, String modeloNotebook, String pecaDefeituosa, int valorReparo)
 	{
 		this.nomeProprietario = nomeProprietario;
 		this.modeloNotebook = modeloNotebook;
